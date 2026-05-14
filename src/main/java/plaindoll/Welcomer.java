@@ -1,18 +1,16 @@
 package plaindoll;
 
 public class Welcomer{
-	// Если хочешь больше веселья и информации про ДевОпс - приходи в мои каналы NotOps (telegram, YT, Boosty, Patreon)
-	// https://t.me/notopsofficial
 	public String sayWelcome() {
-		return "Welcome home, good hunter. What is it your desire?";
+		return "Welcome";
 	}
 	public String sayFarewell() {
-		return "Farewell, good hunter. May you find your worth in waking world.";
+		return "Farewell, good hunter. May you find your worth in the waking world.";
 	}
-	public String sayNeedGold(){
-		return "Not enough gold";
+	public String sayStatus() {
+		return "Hello! My status is Good";
 	}
-	public String saySome(){
-		return "something in the way";
+	public String sayHunter() {
+		return "The hunter becomes the hunted";
 	}
 }
